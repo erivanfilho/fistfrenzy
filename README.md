@@ -1,4 +1,4 @@
-Talk Hand
+Fist Frenzy
 =============
 
-O projeto consiste em usar uma greenpill auxiliada de 5 sensores de flexão, um para cada dedo, e um giroscópio nas costas da mão, e repassar as informações de qual movimento foi realizado. O algoritmo no smartphone por sua vez fará o reconhecimento do que foi dito e usará a assistente de voz para ler.
+O projeto consiste em usar uma placa bluepill auxiliada de sensores MPU, que contêm módulo acelerômetro e giroscópio em partes da mão e repassar informações sobre os movimentos realizados no punho. O algoritmo entrará em conexão com o protocolo de mensagens MQTT para o reconhecimento dos movimentos realizados.
